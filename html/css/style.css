@@ -21,6 +21,7 @@ Author: uiCookies.com
 	9. Team / .team
 	10. Pricing Table / .pricing-section
 	11. Client Logo / .client-logo
+	12. C4P/.C4P-section
 	12. Contact Section
 	    12.1. #googleMap
 	    12.2. Contact Form
@@ -207,6 +208,10 @@ button:focus,
 /*-----------------------------
  * NAVIGATION & HEADER STYLE
  *-------------------------------*/
+
+
+
+
 
 .header {
     position : absolute;
@@ -452,6 +457,13 @@ button:focus,
     }
 
 /* ----------------------------------------------
+ * C4P Section
+ *-----------------------------------------------*/
+ .section-C4P{
+ margin-bottom: 60px;
+ text-align: center;
+ }
+/* ----------------------------------------------
  * Team Section
  *-----------------------------------------------*/
 
@@ -521,13 +533,13 @@ button:focus,
  *---------------------------*/
 .section-ajenda .session {
     padding       : 15px 0;
-    border-left   : 1px solid #eeeeee;
+    border-left   : 1px solid;
     margin-bottom : 40px;
     }
 
 .section-ajenda .session time {
     padding       : 5px 25px 15px;
-    border-bottom : 1px solid #eeeeee;
+    border-bottom : 1px solid;
     display       : inline-block;
     }
 
@@ -544,7 +556,7 @@ button:focus,
 .section-ajenda .session h3 span {
     font-size   : 14px;
     display     : block;
-    line-height : 1;
+    line-height : 2;
     }
 
 /* --------------------------
