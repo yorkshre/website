@@ -462,7 +462,10 @@ button:focus,
  .section-C4P{
  margin-bottom: 60px;
  text-align: center;
+ color: #ffffff
+
  }
+
 /* ----------------------------------------------
  * Team Section
  *-----------------------------------------------*/
@@ -658,10 +661,18 @@ button:focus,
  * Google Map
  * ------------------*/
 
-#googleMap {
-    height        : 320px;
-    border        : 5px solid #ffffff;
-    margin-bottom : 100px;
+ .google-maps {
+        position: relative;
+        padding-bottom: 75%; // Tutaj regulujemy wysokość
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
     }
 
 /* ---------------------------
